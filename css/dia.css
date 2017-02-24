@@ -1,0 +1,26 @@
+/*content-img*/
+/*@media only screen and (max-width : 940px) 
+{
+	.galleryItem { width: 21%;}
+	.galleryItem img {width: 100%;}
+}
+
+@media only screen and (max-width : 720px)
+{
+	.galleryItem {width: 29.33333%;}
+	.galleryItem img {width: 100%;}
+}
+
+@media screen and (max-width : 530px) {
+	.galleryItem {width: 90%;}
+	.galleryItem img {width: 100%;}
+}
+
+@media screen and (max-width : 320px) {
+	.galleryItem {width: 96%;}
+	.galleryItem img {width: 96%;}
+	.galleryItem h3 {font-size: 18px;}
+	.galleryItem p, {font-size: 18px;}
+}*/
+
+

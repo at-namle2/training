@@ -1,0 +1,142 @@
+@media screen and (max-width: 480px) {
+    .slide img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .introduce {
+        padding: 15px 0 15px;
+    }
+    .history ul li:before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-top-color: #131111;
+        bottom: -17px;
+        left: 117px;
+        top: 187px;
+        display: none;
+    }
+    #left {
+        /* width: 50%; */
+        
+        float: left;
+    }
+    #left p {
+        word-break: break-word
+    }
+    #right figure img {
+        width: 100%;
+    }
+    .newright {
+        width: 50%;
+    }
+    .left,
+    .right {
+        float: none;
+        width: auto;
+    }
+    .left p {
+        font-size: 12px;
+    }
+    
+    .topRoomimg img {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 0 30px;
+    }
+    .bottomRoomimg img {
+        width: 100%;
+        margin-top: 0;
+    }
+    .galleryItem {
+        color: #fff;
+        font: 10px/1.5 Verdana, Helvetica, sans-serif;
+        padding: 15px 15px;
+        text-align: center;
+        float: none !important;
+    }
+    .galleryItem img {
+        width: 100%;
+    }
+    .bottomRoomimg div {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .newleft {
+        width: 100% !important;
+    }
+    .newright {
+    	float:none !important;
+    }
+    .box1 figure img {
+    	width: 100%;
+    	margin-left: 0;
+    }
+
+
+    footer #mapdiv .box {
+    position: absolute;
+    z-index: 2;
+    top: -46px;
+    left: -49px;
+    width: 339px;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+
+footer #mapdiv .box > h2 {
+    position: absolute;
+    top: 132px;
+    left: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    transform: rotate(-51deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-51deg);
+    -moz-transform: rotate(-51deg);
+}
+
+footer #mapdiv .box > img {
+    position: absolute;
+    top: 158px;
+    left: -22px;
+    text-transform: uppercase;
+    transform: rotate(-51deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(-51deg);
+    -moz-transform: rotate(-51deg);
+}
+
+footer #mapdiv .box > h3 {
+    position: absolute;
+    top: 64px;
+    left: -85px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+
+footer #mapdiv .box > p {
+    position: absolute;
+    text-align: center;
+    top: 126px;
+    left: 59px;
+    font-size: 12px;
+    transform: rotate(-51deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-51deg);
+    -moz-transform: rotate(-51deg);
+}
+
+}
